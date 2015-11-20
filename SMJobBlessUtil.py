@@ -359,12 +359,6 @@ def setreq(appPath, appInfoPlistPath, toolInfoPlistPaths):
         if not isinstance(bundleID, basestring):
             raise CheckException("'CFBundleIdentifier' must be a string", toolInfoPlistPath)
 
-        print("Bundle ID")
-        print(bundleID)
-        print("Tool Dict")
-        print(appToolDict)
-        print("Tool Name")
-        print(toolNameToReqMap)
         appToolDict[bundleID] = toolNameToReqMap[bundleID]
  
     # Set the SMPrivilegedExecutables value in the app "Info.plist".
