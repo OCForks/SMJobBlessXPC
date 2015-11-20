@@ -1,0 +1,8 @@
+**/.DS_Store
+**/project.xcworkspace/**/*
+**/xcuserdata/**/*
+**/xcshareddata/**/*
+DerivedData
+Build
+DerivedData
+Pods
